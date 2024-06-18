@@ -1,0 +1,350 @@
+* {
+    /* border: 1px solid gray; */
+    padding: 2px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(#BDDBF2, #4F99D2);
+}
+
+
+.title {
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(#C0D0F3, #96B4F3);
+    top: 0;
+    z-index: 1;
+    margin-left: -15px;
+}
+
+.link_title {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap; /*чтобы, если текст не помещается, ставилось многоточие*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: #264C9B;
+}
+
+.ultitle {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    height: 100%;
+    text-align: center;
+}
+
+#aboutus {
+    padding-top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+    margin: -30px;
+    margin-bottom: 0px;
+}
+
+.photo {
+    width: 40%;
+}
+
+.general {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    width: 60%;
+    margin-bottom: -5px;
+}
+
+.icon {
+    width: 10%;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.mission {
+    font-weight: 600;
+}
+
+.maininfo {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.addinfo {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 25%;
+    margin-top: -3px;
+}
+
+.record {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 25%;
+    background-image: linear-gradient(#557ED5, #264C9B);
+    border-radius: 30px;
+    padding: 10px 15px;
+    white-space: nowrap; /*чтобы, если текст не помещается, ставилось многоточие*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 25px;
+}
+
+.button a {
+    color: #C0D0F3;
+}
+
+#image_1 {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+#image_2 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+#image_3 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+#image_4 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+#image_5 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+#image_6 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+#image_7 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+#image_8 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+#image_9 {
+    opacity: 0; filter: 
+    alpha(opacity=0);
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+
+.sep {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#directions{
+    margin: -12px;
+    display: flex;
+    justify-content: center;
+}
+
+.dir {
+    border: 2px solid #5484A9;
+    text-align: center;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 10px 10px 0px 0px;
+    font-size: 85%;
+    font-weight: 600;
+    background-image: linear-gradient(#BDDBF2, #92C8F2);
+}
+
+li {
+    margin-left: -30px;
+}
+
+p {
+    font-weight: 600;
+}
+
+i {
+    font-style: italic;
+}
+
+#specialists {
+    display: flex;
+    width: 100%;
+    /* background-color: #BDDBF2; */
+    margin: -20px;
+    padding: 30px 60px;
+}
+
+.spec {
+    padding: 20px;
+    margin: 0 20px;
+    width: 50%;
+    border: 2px solid #5484A9;
+    background-color: #92C8F2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photospec {
+    width: 100%;
+    text-align: center;
+}
+
+.photospec img{
+    width: inherit;
+    border-radius: 20px;
+    margin-top: auto;
+}
+
+.buttonspec {
+    background-image: linear-gradient(#557ED5, #264C9B);
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.buttonspec a{
+    color: #C0D0F3;
+    white-space: nowrap; /*чтобы, если текст не помещается, ставилось многоточие*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#freedback {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    overflow: hidden;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    animation-name: roundup;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.fb {
+    width: 300px;
+    border: 2px solid #5484A9;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 20px;
+    font-size: 85%;
+    font-weight: 600;
+    background-image: linear-gradient(#BDDBF2, #92C8F2);
+}
+
+/*Описывает аспект промежуточных шагов в последовательности анимации CSS.*/
+@keyframes roundup {
+    from {
+      transform: translateX(1%);
+    }
+    to {
+      transform: translateX(calc(-100% + 1200px - 2px));
+    }
+}
+
+#price {
+    margin: -20px;
+    padding: 30px 60px;
+}
+
+.buttonprice {
+    width: 100%;
+    background-image: linear-gradient(#557ED5, #264C9B);
+    border-radius: 20px;
+    padding: 20px 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.buttonprice a{
+    color: #C0D0F3;
+    white-space: nowrap; /*чтобы, если текст не помещается, ставилось многоточие*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#messengers {
+    margin: -20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mess {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.mess img {
+    width: 40%;
+}
+
+.footer {
+    background-color:  #264C9B;
+    color: #C0D0F3;
+    width: 100%;
+    text-align: center;
+    margin: -20px;
+    padding: 30px;
+}
+
